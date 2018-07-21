@@ -138,13 +138,3 @@ crossovers:
           crossed_indicator_index: 1
           crossed_indicator_type: indicators
           crossed_signal: macdsignal
-
-notifiers:
-    gmail:
-        required:
-            username: eftalyurtsevenn@gmail.com
-            password: eftal405123
-            destination_emails:
-                - eftalyurtseven@gmail.com
-        optional:
-            template: "{{exchange}}-{{market}}-{{indicator}}-{{indicator_number}} is {{status}}!{{ '\n' -}}"
